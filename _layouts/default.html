@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — ATRX Dev</title>
+  <meta name="description" content="{{ page.description | default: 'A collection of handy developer tools' }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">⚡ <span>ATRX Dev</span></a>
+      <div class="nav-links">
+        <a href="/" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+        <a href="/tools.html" {% if page.url == '/tools.html' %}class="active"{% endif %}>Tools</a>
+        <a href="/articles.html" {% if page.url == '/articles.html' %}class="active"{% endif %}>Articles</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main">
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    ATRX Dev Tools &middot; Built with Jekyll
+  </footer>
+</body>
+</html>

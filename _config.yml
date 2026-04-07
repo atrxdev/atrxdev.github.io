@@ -1,0 +1,19 @@
+collections:
+  tools:
+    output: true
+    permalink: /tools/:name
+  articles:
+    output: true
+    permalink: /articles/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "tools"
+    values:
+      layout: "tool"
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "article"

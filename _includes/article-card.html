@@ -1,0 +1,6 @@
+<a href="{{ article.url }}" class="article-card" style="text-decoration:none">
+  <h3>{{ article.title }}</h3>
+  {% if article.date %}<time class="article-date">{{ article.date | date: "%B %d, %Y" }}</time>{% endif %}
+  <p>{{ article.description }}</p>
+  <span class="arrow">Read more →</span>
+</a>
