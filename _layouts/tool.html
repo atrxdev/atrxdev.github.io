@@ -13,6 +13,45 @@ layout: default
   <p>{{ page.description }}</p>
 </div>
 
-<div class="tool-container">
-  {{ content }}
+<div class="tool-stack">
+  <div class="tool-container tool-widget">
+    {{ content }}
+  </div>
+
+  {% if page.tool_explanation or page.how_to_use or page.tool_article or page.faqs %}
+    <div class="article-body tool-article">
+      {% if page.tool_explanation %}
+        <h2>What This Tool Does</h2>
+        {{ page.tool_explanation | markdownify }}
+      {% endif %}
+
+      {% if page.how_to_use %}
+        <h2>How to Use This Tool</h2>
+        <ol class="tool-steps">
+          {% for step in page.how_to_use %}
+            <li>{{ step }}</li>
+          {% endfor %}
+        </ol>
+      {% endif %}
+
+      {% if page.tool_article %}
+        <h2>In-Depth Guide</h2>
+        {{ page.tool_article | markdownify }}
+      {% endif %}
+
+      {% if page.faqs %}
+        <h2>Frequently Asked Questions</h2>
+        <div class="tool-faqs">
+          {% for faq in page.faqs %}
+            <details class="tool-faq">
+              <summary>{{ faq.question }}</summary>
+              <div class="tool-faq-answer">
+                {{ faq.answer | markdownify }}
+              </div>
+            </details>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
 </div>
