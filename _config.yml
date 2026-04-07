@@ -6,6 +6,12 @@ collections:
     output: true
     permalink: /articles/:name
 
+url: https://atrxdev.github.io
+baseurl: ""
+
+plugins:
+  - jekyll-sitemap
+
 defaults:
   - scope:
       path: ""
