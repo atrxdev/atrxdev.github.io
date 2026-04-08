@@ -5,7 +5,50 @@ title: Home
 
 <div class="hero">
   <h1>ATRX Dev Tools</h1>
-  <p>A collection of handy developer tools — fast, free, and right in your browser.</p>
+  <p>A collection of handy developer tools and articles — fast, free, and right in your browser.</p>
 </div>
 
-{% include tools-grid.html %}
+<section class="home-section">
+  <div class="section-header">
+    <div class="section-icon">🛠️</div>
+    <div>
+      <h2>Tools</h2>
+      <p>Browser-based utilities to speed up your workflow</p>
+    </div>
+    <a href="/tools.html" class="section-link">View all tools →</a>
+  </div>
+  <div class="tools-grid">
+    {% assign tools_limit = site.tools | size %}
+    {% if tools_limit > 6 %}{% assign tools_limit = 6 %}{% endif %}
+    {% for tool in site.tools limit:6 %}
+      {% include tool-card.html tool=tool %}
+    {% endfor %}
+  </div>
+  {% if site.tools.size > 6 %}
+  <div class="section-footer">
+    <a href="/tools.html" class="view-all-btn">Browse all {{ site.tools.size }} tools →</a>
+  </div>
+  {% endif %}
+</section>
+
+<section class="home-section">
+  <div class="section-header">
+    <div class="section-icon">📝</div>
+    <div>
+      <h2>Articles</h2>
+      <p>Guides, tips, and insights for developers</p>
+    </div>
+    <a href="/articles.html" class="section-link">View all articles →</a>
+  </div>
+  <div class="articles-grid">
+    {% assign sorted_articles = site.articles | sort: "date" | reverse %}
+    {% for article in sorted_articles limit:6 %}
+      {% include article-card.html article=article %}
+    {% endfor %}
+  </div>
+  {% if site.articles.size > 6 %}
+  <div class="section-footer">
+    <a href="/articles.html" class="view-all-btn">Browse all {{ site.articles.size }} articles →</a>
+  </div>
+  {% endif %}
+</section>

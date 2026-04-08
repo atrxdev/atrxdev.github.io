@@ -101,7 +101,7 @@ a:hover {
 /* Hero section */
 .hero {
   text-align: center;
-  padding: 3rem 0 4rem;
+  padding: 3rem 0 2rem;
 }
 .hero h1 {
   font-size: 3rem;
@@ -118,6 +118,82 @@ a:hover {
   color: var(--text-muted);
   max-width: 500px;
   margin: 0 auto;
+}
+
+/* Home sections */
+.home-section {
+  margin-bottom: 3.5rem;
+}
+.home-section:last-child {
+  margin-bottom: 0;
+}
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+.section-icon {
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-glow);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+}
+.section-header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin: 0;
+}
+.section-header > div > p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 0.15rem 0 0;
+}
+.section-link {
+  margin-left: auto;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--accent);
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  transition: all 0.2s;
+}
+.section-link:hover {
+  background: var(--accent-glow);
+  border-color: var(--accent);
+  color: var(--accent-hover);
+}
+.section-footer {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.view-all-btn {
+  display: inline-block;
+  padding: 0.65rem 1.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: all 0.2s;
+}
+.view-all-btn:hover {
+  background: var(--accent-glow);
+  border-color: var(--accent);
+  color: var(--accent-hover);
+  box-shadow: 0 4px 16px var(--accent-glow);
 }
 
 /* Tool cards grid */
@@ -479,4 +555,12 @@ a:hover {
   .articles-grid { grid-template-columns: 1fr; }
   .tool-container { padding: 1.25rem; }
   .article-body { padding: 1.25rem; }
+  .section-header {
+    flex-wrap: wrap;
+  }
+  .section-link {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
 }
