@@ -134,9 +134,9 @@ faqs:
 
 /* Tabs */
 .api-tabs{display:flex;gap:0;border-bottom:1px solid var(--border,#2a2d3a);margin-bottom:0}
-.api-tab{padding:0.5rem 1rem;cursor:pointer;font-size:0.85rem;font-weight:600;color:var(--text-muted,#9ca3af);border-bottom:2px solid transparent;transition:color .15s,border-color .15s;user-select:none}
-.api-tab:hover{color:var(--text,#e4e4e7)}
-.api-tab.active{color:var(--accent,#6366f1);border-bottom-color:var(--accent,#6366f1)}
+.api-tab{padding:0.5rem 1rem;cursor:pointer;font-size:0.85rem;font-weight:600;color:#555;border-bottom:2px solid transparent;transition:color .15s,border-color .15s,background .15s;user-select:none;border-radius:var(--radius-sm,8px) var(--radius-sm,8px) 0 0}
+.api-tab:hover{color:var(--text,#e4e4e7);background:var(--surface-hover,#22242e)}
+.api-tab.active{color:var(--accent,#6366f1);border-bottom-color:var(--accent,#6366f1);background:rgba(99,102,241,0.08)}
 
 /* Panels */
 .api-panel{padding:0.75rem 0}
@@ -151,8 +151,10 @@ faqs:
 .api-add-row:hover{color:var(--accent,#6366f1);border-color:var(--accent,#6366f1)}
 
 /* Body type radios */
-.api-body-types{display:flex;gap:1.25rem;margin-bottom:0.75rem}
-.api-body-radio{font-size:0.85rem;display:flex;align-items:center;gap:0.35rem;cursor:pointer;color:var(--text-muted,#9ca3af)}
+.api-body-types{display:flex;gap:0.5rem;margin-bottom:0.75rem}
+.api-body-radio{font-size:0.85rem;display:flex;align-items:center;gap:0.35rem;cursor:pointer;color:#555;padding:0.35rem 0.7rem;border:1px solid var(--border,#2a2d3a);border-radius:var(--radius-sm,8px);transition:color .15s,border-color .15s,background .15s}
+.api-body-radio:hover{color:var(--text,#e4e4e7);border-color:var(--text-muted,#9ca3af)}
+.api-body-radio:has(input:checked){color:var(--accent,#6366f1);border-color:var(--accent,#6366f1);background:rgba(99,102,241,0.1)}
 .api-body-radio input{accent-color:var(--accent,#6366f1);cursor:pointer}
 #api-body-editor{font-family:'SF Mono',SFMono-Regular,Menlo,Consolas,monospace;font-size:0.85rem;resize:vertical;width:100%;box-sizing:border-box}
 
