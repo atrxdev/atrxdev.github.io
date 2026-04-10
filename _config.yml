@@ -6,7 +6,7 @@ collections:
     output: true
     permalink: /articles/:name
 
-url: https://atrxdev.github.io
+url: https://atrxtools.com
 baseurl: ""
 
 plugins:
