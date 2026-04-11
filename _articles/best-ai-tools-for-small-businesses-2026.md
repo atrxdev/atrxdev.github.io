@@ -1,6 +1,6 @@
 ---
 title: "Best AI Tools for Small Businesses in 2026"
-description: "How small businesses can use AI tools to save time, cut costs, and compete with larger companies."
+description: "Discover practical AI tools small businesses can use in 2026 to save time, reduce costs, improve marketing, and compete more effectively."
 date: 2026-04-07
 ---
 

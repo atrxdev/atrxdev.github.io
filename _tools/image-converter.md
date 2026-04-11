@@ -1,6 +1,6 @@
 ---
 title: Image Converter
-description: Convert images between PNG, JPEG, WebP, and BMP formats in your browser
+description: "Convert images between PNG, JPEG, WebP, and BMP formats directly in your browser for fast format changes without extra software."
 tool_explanation: |-
   This tool converts images between common formats including PNG, JPEG, WebP, and BMP entirely in your browser. It is useful when you need to change an image format for compatibility, file size optimization, or platform requirements without uploading anything to a server.
 how_to_use:

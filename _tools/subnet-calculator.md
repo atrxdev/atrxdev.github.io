@@ -1,6 +1,6 @@
 ---
 title: Subnet Calculator
-description: Calculate network details from any IP address and CIDR prefix
+description: "Calculate subnet masks, network and broadcast addresses, host ranges, wildcard masks, and usable hosts from any IPv4 CIDR block."
 tool_explanation: |-
   This subnet calculator takes an IP address with a CIDR prefix length or subnet mask and returns the full network breakdown, including network and broadcast addresses, usable host range, wildcard mask, and total host count. Everything runs in your browser with no server requests.
 how_to_use:

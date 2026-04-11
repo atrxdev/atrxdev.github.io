@@ -1,6 +1,6 @@
 ---
 title: Regex Tester
-description: Build, test, and understand regular expressions with live matching and detailed explanations
+description: "Test regular expressions in your browser with live matches and clear explanations for faster search, validation, and parsing work."
 tool_explanation: |-
   This regex tester lets you write a regular expression and test it against any input string in real time. Matches are highlighted inline, capture groups are broken down in detail, and a built-in reference panel explains common regex syntax. Everything runs locally in your browser using the JavaScript RegExp engine.
 how_to_use:

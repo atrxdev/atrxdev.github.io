@@ -1,3 +1,6 @@
+title: ATRX Dev
+description: Free browser-based developer tools and practical articles for security, data conversion, debugging, productivity, and everyday coding workflows.
+
 collections:
   tools:
     output: true

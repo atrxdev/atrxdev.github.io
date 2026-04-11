@@ -1,6 +1,6 @@
 ---
 title: .htaccess Generator
-description: Build Apache .htaccess configuration files visually with redirects, security headers, caching, compression, and more
+description: "Create Apache .htaccess files for redirects, caching, compression, and security headers with a fast visual generator."
 tool_explanation: |-
   This tool helps you create Apache .htaccess files without memorizing the directive syntax. Toggle common configuration blocks, fill in your values, and copy the generated output. It covers redirects, HTTPS enforcement, www canonicalization, custom error pages, security headers, GZIP compression, browser caching, IP blocking, hotlink protection, and directory options. Everything runs in your browser — nothing is sent to a server.
 how_to_use:

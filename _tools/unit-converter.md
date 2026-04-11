@@ -1,6 +1,6 @@
 ---
 title: Unit Converter
-description: Convert between common units of length, weight, temperature, and more
+description: "Convert units for length, weight, temperature, and more with a fast browser-based unit converter for everyday calculations."
 tool_explanation: |-
   This unit converter translates values across common measurement categories including length, weight, temperature, volume, and speed. It is useful for travel, education, engineering, shopping, fitness, and everyday comparison work where numbers are only meaningful if the unit conversion is accurate.
 how_to_use:

@@ -1,6 +1,6 @@
 ---
 title: Word Counter
-description: Count words in text instantly
+description: "Count words instantly in your browser for writing, SEO, academic work, content planning, and any task with length limits."
 tool_explanation: |-
   This word counter gives you a fast estimate of how many words appear in a block of text. It is useful for drafting, editing, SEO, academic writing, content planning, and any workflow where length limits or target ranges matter.
 how_to_use:

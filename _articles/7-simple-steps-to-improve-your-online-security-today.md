@@ -1,6 +1,6 @@
 ---
 title: "7 Simple Steps to Improve Your Online Security Today"
-description: "A practical online security guide covering strong passwords, two-factor authentication, password managers, phishing awareness, and other simple habits that reduce risk fast."
+description: "Improve your online security with seven practical habits covering passwords, two-factor authentication, phishing awareness, and safer browsing."
 date: 2026-04-07
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Compound Interest Calculator
-description: Calculate how your savings or investments grow over time with compound interest
+description: "Calculate compound interest growth for savings and investments with contributions, compounding frequency, and year-by-year projections."
 tool_explanation: |-
   This calculator shows how an initial investment grows over time when interest compounds at regular intervals. Enter your principal, interest rate, compounding frequency, and time period to see the final balance, total interest earned, and a year-by-year breakdown. It is useful for comparing savings accounts, investment options, and understanding the long-term effect of compounding.
 how_to_use:

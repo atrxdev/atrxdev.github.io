@@ -1,6 +1,6 @@
 ---
 title: BMI Calculator
-description: Calculate your body mass index easily
+description: "Calculate body mass index from your height and weight with a fast online BMI calculator for quick health check-ins and progress tracking."
 tool_explanation: |-
   This BMI calculator estimates your body mass index from your weight and height so you can get a fast screening number in seconds. It is useful for quick check-ins, basic health tracking, and conversations with a clinician, but it should be treated as a starting point rather than a diagnosis.
 how_to_use:
