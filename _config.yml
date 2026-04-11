@@ -11,6 +11,7 @@ collections:
 
 url: https://atrxtools.com
 baseurl: ""
+google_tag_manager_id: GTM-T49V5X9X
 
 plugins:
   - jekyll-sitemap
