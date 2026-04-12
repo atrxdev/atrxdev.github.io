@@ -2,6 +2,9 @@
 title: "How Hackers Crack Weak Passwords"
 description: "Understand how brute force attacks, dictionary attacks, and credential stuffing work, and why strong unique passwords matter."
 date: 2026-04-07
+categories:
+  - Security
+  - Passwords
 ---
 
 Weak passwords are still one of the easiest ways for attackers to break into online accounts. People often imagine hacking as something highly technical and rare, but a large share of account compromise comes from repeatable, automated methods aimed at common human behavior. When users choose short passwords, reuse the same login across multiple sites, or rely on obvious words and patterns, attackers do not need creativity. They need scale, speed, and lists of likely guesses.

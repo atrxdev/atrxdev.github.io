@@ -2,6 +2,9 @@
 title: "What Makes a Password Truly Secure?"
 description: "A clear explanation of password length, entropy, randomness, and character combinations, plus what actually matters most when creating stronger passwords."
 date: 2026-04-07
+categories:
+  - Security
+  - Passwords
 ---
 
 When people think about password strength, they often focus on surface-level rules. Add a capital letter. Add a number. Add a symbol. Avoid using `password123`. Those rules are not wrong, but they are incomplete. A password is not truly secure just because it looks complicated. Real password strength comes from how hard it is for an attacker to guess, predict, or crack at scale.

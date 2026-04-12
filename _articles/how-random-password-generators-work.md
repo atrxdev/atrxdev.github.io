@@ -2,6 +2,9 @@
 title: "How Random Password Generators Work"
 description: "A practical explanation of how secure password generators use randomness, character pools, and entropy to create stronger passwords."
 date: 2026-04-07
+categories:
+  - Security
+  - Passwords
 ---
 
 Random password generators solve a problem that humans are surprisingly bad at solving on their own: creating passwords that are both unpredictable and practical to use. Most people do not generate real randomness when they invent a password. They reach for patterns, familiar words, keyboard habits, dates, substitutions, and repeated structures. Those habits make passwords easier for attackers to guess.

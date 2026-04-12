@@ -1,5 +1,26 @@
-<a href="{{ tool.url }}" class="tool-card" style="text-decoration:none">
+{% assign tool_search_categories = tool.categories | join: ' ' %}
+<a
+  href="{{ tool.url }}"
+  class="tool-card"
+  style="text-decoration:none"
+  data-search-text="{{ tool.title | append: ' ' | append: tool.description | append: ' ' | append: tool.tool_explanation | append: ' ' | append: tool_search_categories | strip_html | strip_newlines | replace: '  ', ' ' | downcase | escape_once }}"
+  data-categories="{{ tool.categories | join: '|' | downcase | escape_once }}"
+>
   <h3><span>{{ tool.title }}</span></h3>
   <p>{{ tool.description }}</p>
+  {% if page.url == '/tools.html' and tool.categories and tool.categories.size > 0 %}
+    <div class="tool-card-tags">
+      {% for category in tool.categories %}
+        <span
+          class="tool-tag tool-tag-filter"
+          data-tool-category-tag="{{ category | downcase }}"
+          role="button"
+          tabindex="0"
+        >
+          {{ category }}
+        </span>
+      {% endfor %}
+    </div>
+  {% endif %}
   <span class="arrow">Open tool →</span>
 </a>

@@ -1,6 +1,9 @@
 ---
 title: API Request Tester
 description: "Test API endpoints in your browser by sending HTTP requests, customizing headers and bodies, and inspecting status codes, timing, and responses."
+categories:
+  - API
+  - Networking
 tool_explanation: |-
   This tool lets you build and send HTTP requests to any API endpoint and inspect the full response, including status code, headers, body, and timing. It supports all common methods, custom headers, request bodies with multiple content types, and query parameters. Everything runs in your browser using the Fetch API. No data passes through an intermediary server.
 how_to_use:

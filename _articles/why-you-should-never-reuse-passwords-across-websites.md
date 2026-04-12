@@ -2,6 +2,9 @@
 title: "Why You Should Never Reuse Passwords Across Websites"
 description: "Learn why reusing the same password across multiple sites is dangerous and how one breach can put many of your accounts at risk."
 date: 2026-04-07
+categories:
+  - Security
+  - Passwords
 ---
 
 Password reuse is one of the most common security habits on the internet, and it is also one of the most dangerous. It feels efficient in the moment. One password is easier to remember than ten, and using the same login across multiple websites reduces friction. The problem is that this convenience creates a chain of risk. If one account is compromised, many others can fall with it.

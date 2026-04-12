@@ -2,6 +2,9 @@
 title: "The Most Common Passwords Used Around the World"
 description: "A practical look at the weak passwords people still choose globally, why they are dangerous, and how attackers exploit them at scale."
 date: 2026-04-07
+categories:
+  - Security
+  - Passwords
 ---
 
 Every year, lists of the most common passwords reveal the same pattern: millions of people still protect their accounts with passwords that are short, obvious, and highly predictable. Variations of `123456`, `password`, `qwerty`, `admin`, and `123456789` continue to appear across countries, industries, and types of accounts. The exact ranking may change from one report to another, but the broader problem stays the same.

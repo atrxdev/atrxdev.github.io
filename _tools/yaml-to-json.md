@@ -1,6 +1,8 @@
 ---
 title: YAML to JSON Converter
 description: "Convert YAML to JSON instantly in your browser for configs, APIs, developer tooling, and quick data transformation tasks."
+categories:
+  - Data
 tool_explanation: |-
   This tool parses YAML input and converts it to well-formatted JSON output. It validates the YAML syntax as you work, highlights errors with descriptive messages, and lets you choose the indentation style for the resulting JSON. Everything runs locally in your browser with no data sent to any server.
 how_to_use:

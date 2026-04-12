@@ -1,6 +1,27 @@
-<a href="{{ article.url }}" class="article-card" style="text-decoration:none">
+{% assign article_search_categories = article.categories | join: ' ' %}
+<a
+  href="{{ article.url }}"
+  class="article-card"
+  style="text-decoration:none"
+  data-search-text="{{ article.title | append: ' ' | append: article.description | append: ' ' | append: article_search_categories | strip_html | strip_newlines | replace: '  ', ' ' | downcase | escape_once }}"
+  data-categories="{{ article.categories | join: '|' | downcase | escape_once }}"
+>
   <h3>{{ article.title }}</h3>
   {% if article.date %}<time class="article-date">{{ article.date | date: "%B %d, %Y" }}</time>{% endif %}
   <p>{{ article.description }}</p>
+  {% if page.url == '/articles.html' and article.categories and article.categories.size > 0 %}
+    <div class="article-card-tags">
+      {% for category in article.categories %}
+        <span
+          class="article-tag article-tag-filter"
+          data-article-category-tag="{{ category | downcase }}"
+          role="button"
+          tabindex="0"
+        >
+          {{ category }}
+        </span>
+      {% endfor %}
+    </div>
+  {% endif %}
   <span class="arrow">Read more →</span>
 </a>

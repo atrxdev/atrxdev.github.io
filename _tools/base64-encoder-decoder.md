@@ -1,6 +1,8 @@
 ---
 title: Base64 Encode / Decode
 description: "Encode text to Base64 or decode Base64 strings instantly in your browser for debugging, data transfer, integrations, and web development tasks."
+categories:
+  - Data
 tool_explanation: |-
   This tool converts plain text into Base64 and decodes Base64 back into readable text. It is useful for quick testing, debugging, content packaging, and data inspection, especially when you need to verify how text is being transformed inside an API, email payload, token, or data URL.
 how_to_use:

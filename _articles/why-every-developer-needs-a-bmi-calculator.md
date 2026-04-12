@@ -2,6 +2,8 @@
 title: "Why Every Developer Needs a BMI Calculator"
 description: "Learn why a simple BMI calculator can help developers track health trends, counter sedentary habits, and support long-term wellness."
 date: 2026-04-07
+categories:
+  - Wellness
 ---
 
 ## The Problem

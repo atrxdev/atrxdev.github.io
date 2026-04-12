@@ -2,6 +2,8 @@
 title: "7 Simple Steps to Improve Your Online Security Today"
 description: "Improve your online security with seven practical habits covering passwords, two-factor authentication, phishing awareness, and safer browsing."
 date: 2026-04-07
+categories:
+  - Security
 ---
 
 Online security often sounds more complicated than it needs to be. People hear about breaches, malware, phishing, identity theft, and account takeovers, then assume staying safe requires advanced technical knowledge. In practice, a small number of consistent habits can reduce a large amount of everyday risk.

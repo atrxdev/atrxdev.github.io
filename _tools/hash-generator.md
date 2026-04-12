@@ -1,6 +1,9 @@
 ---
 title: Hash Generator
 description: "Generate MD5, SHA-1, SHA-256, and SHA-512 hashes from text instantly in your browser for verification, testing, and development work."
+categories:
+  - Security
+  - Data
 tool_explanation: |-
   This tool computes cryptographic hash values from text using MD5, SHA-1, SHA-256, and SHA-512. It runs entirely in your browser using the Web Crypto API and a local MD5 implementation. It is useful for verifying checksums, generating content fingerprints, and understanding how different hash algorithms produce fixed-length outputs from arbitrary input.
 how_to_use:

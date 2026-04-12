@@ -1,6 +1,9 @@
 ---
 title: JSON Formatter / Minifier
 description: "Format, validate, and minify JSON instantly in your browser to clean API payloads, debug responses, and improve readability."
+categories:
+  - Data
+  - API
 tool_explanation: |-
   This tool formats messy JSON into readable, indented output or minifies structured JSON into a compact single line. It validates syntax as you work and highlights errors with line numbers, making it useful for debugging API responses, configuration files, and data payloads without leaving your browser.
 how_to_use:

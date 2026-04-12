@@ -2,6 +2,8 @@
 title: "Base64 Explained: What It Is, How It Works & Real-World Uses"
 description: "Learn what Base64 encoding is, how its 6-bit mapping and padding work, where it is used, and why it should not be mistaken for encryption."
 date: 2026-04-10
+categories:
+  - Data
 ---
 
 Base64 is one of those formats that shows up everywhere once you know what you are looking at. It appears in API payloads, email attachments, PEM certificates, data URLs, authentication headers, exported configuration blobs, and countless debugging sessions where a long string of letters, numbers, plus signs, and slashes needs to be turned back into something readable.

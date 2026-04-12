@@ -9,4 +9,50 @@ description: Explore free online developer tools for JSON, YAML, Base64, regex, 
   <p>Browse the full collection of developer utilities.</p>
 </div>
 
-{% include tools-grid.html %}
+{% assign tool_categories = "" | split: "" %}
+{% for tool in site.tools %}
+  {% if tool.categories %}
+    {% assign tool_categories = tool_categories | concat: tool.categories %}
+  {% endif %}
+{% endfor %}
+{% assign tool_categories = tool_categories | uniq | sort %}
+
+<section class="tools-directory" data-tools-directory>
+  <div class="tools-filter">
+    <label class="tools-filter-label" for="tools-filter-input">Filter tools</label>
+    <div class="tools-filter-bar">
+      <input
+        type="search"
+        id="tools-filter-input"
+        class="tools-filter-input"
+        placeholder="Search by tool name, format, or task"
+        autocomplete="off"
+        spellcheck="false"
+      >
+      <button type="button" class="tools-filter-clear" data-tools-filter-clear hidden>Clear</button>
+    </div>
+    <p class="tools-filter-meta" data-tools-filter-status aria-live="polite">Showing all {{ site.tools.size }} tools.</p>
+    <div class="tools-category-filter" aria-label="Filter tools by category">
+      <button type="button" class="tools-category-chip is-active" data-tools-category data-category="" aria-pressed="true">All</button>
+      {% for category in tool_categories %}
+        <button
+          type="button"
+          class="tools-category-chip"
+          data-tools-category
+          data-category="{{ category | downcase }}"
+          aria-pressed="false"
+        >
+          {{ category }}
+        </button>
+      {% endfor %}
+    </div>
+  </div>
+
+  {% include tools-grid.html %}
+
+  <p class="tools-empty-state" data-tools-empty-state hidden>
+    No tools match that filter. Try a different category or a broader term like JSON, password, or calculator.
+  </p>
+</section>
+
+<script src="{{ '/assets/js/tools-filter.js' | relative_url }}" defer></script>

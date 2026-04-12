@@ -1,6 +1,8 @@
 ---
 title: Text Case Converter
 description: "Convert text to uppercase, lowercase, title case, and other formats instantly in your browser for editing and content cleanup."
+categories:
+  - Text
 tool_explanation: |-
   This text case converter changes copied text into multiple writing and developer-friendly formats, including uppercase, lowercase, title case, sentence case, camelCase, snake_case, kebab-case, and more. It is useful for editing copy, standardizing datasets, preparing headings, and cleaning up names for code or content workflows.
 how_to_use:

@@ -1,6 +1,8 @@
 ---
 title: Color Converter
 description: "Convert HEX, RGB, and HSL color values instantly in your browser for CSS styling, design systems, and frontend development work."
+categories:
+  - Design
 tool_explanation: |-
   This color converter translates values between HEX, RGB, and HSL while giving you a live preview, an interactive wheel, and a saved palette. It is useful for designers, developers, and marketers who need to move between visual exploration and production-ready color values without switching tools.
 how_to_use:

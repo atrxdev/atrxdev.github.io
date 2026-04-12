@@ -2,6 +2,9 @@
 title: "Common Password Mistakes People Still Make"
 description: "A practical look at the weak password habits that still put accounts at risk, and how to replace them with safer defaults."
 date: 2026-04-07
+categories:
+  - Security
+  - Passwords
 ---
 
 Even though password security has been discussed for years, the same mistakes continue to show up in personal accounts, workplace systems, and shared online tools. That is not because people do not care about security. It is usually because convenience wins. People choose passwords they can remember quickly, reuse credentials to avoid friction, or store them in ways that feel efficient in the moment. Unfortunately, those shortcuts are exactly what attackers rely on.

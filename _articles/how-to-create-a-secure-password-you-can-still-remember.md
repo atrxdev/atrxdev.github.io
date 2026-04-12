@@ -2,6 +2,9 @@
 title: "How to Create a Secure Password You Can Still Remember"
 description: "Learn practical ways to create memorable but stronger passwords using passphrases, mnemonic methods, and better password habits."
 date: 2026-04-07
+categories:
+  - Security
+  - Passwords
 ---
 
 One of the biggest reasons people choose weak passwords is simple: they want something they can actually remember. That is a real constraint, not a trivial one. If a password is too hard to recall, people tend to write it down carelessly, reuse it across multiple accounts, or simplify it until it becomes predictable.

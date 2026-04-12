@@ -1,6 +1,8 @@
 ---
 title: Password Generator
 description: "Generate strong random passwords with customizable length and character options to create safer account credentials in seconds."
+categories:
+  - Security
 tool_explanation: |-
   This password generator creates random passwords in your browser using customizable length and character options. It helps you make stronger credentials than most people would create manually, which reduces the risk of account takeover from guessing, reuse, or database leaks.
 how_to_use:

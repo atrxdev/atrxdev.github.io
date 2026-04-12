@@ -2,6 +2,9 @@
 title: "Password Managers vs Writing Passwords Down"
 description: "A practical comparison of password managers and written password storage, including the tradeoffs, risks, and safer ways to store credentials."
 date: 2026-04-07
+categories:
+  - Security
+  - Passwords
 ---
 
 People often hear two very different pieces of password advice. One says to use a password manager for everything. The other says never store passwords digitally and write them down instead. At first glance, those recommendations seem to conflict. In reality, both are trying to solve the same problem: most people cannot realistically remember long, unique, random passwords for every account.

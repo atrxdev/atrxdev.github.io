@@ -1,6 +1,8 @@
 ---
 title: Password Strength Checker
 description: "Check password strength instantly and get practical suggestions to improve weak passwords before you use them online."
+categories:
+  - Security
 tool_explanation: |-
   This tool analyzes a password in your browser and rates its strength based on length, character variety, common patterns, and known weaknesses. It helps you understand whether a password is likely to resist guessing and brute-force attacks before you commit to using it.
 how_to_use:

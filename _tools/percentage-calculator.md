@@ -1,6 +1,8 @@
 ---
 title: Percentage Calculator
 description: "Calculate percentages, percentage increase, percentage decrease, and percentage change with a fast online percentage calculator."
+categories:
+  - Calculators
 tool_explanation: |-
   This percentage calculator handles the most common percentage tasks: finding a percentage of a number, measuring percentage change, and working out what percentage one value is of another. It is designed to make everyday calculations faster and less error-prone whether you are working on finance, pricing, schoolwork, analytics, or planning.
 how_to_use:
